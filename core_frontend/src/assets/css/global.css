@@ -1,0 +1,29 @@
+:root{
+    --primary-text-color: white;
+    --signup-accent-color: #fcdd60;
+    --secondary-text-color: black;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: 0;
+}
+
+small[error_tag]{
+    font-size: 16px;
+    color: var(--signup-accent-color) !important;
+    margin-top: 10px;
+    display: block;
+}
+a{
+    text-decoration: none !important;
+    cursor: pointer;
+    color: var(--primary-text-color) !important;
+}
+
+.my_blogs .card-footer{
+    display: flex !important;
+    gap: 15px !important;
+}

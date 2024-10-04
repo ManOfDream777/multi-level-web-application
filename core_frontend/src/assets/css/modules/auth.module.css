@@ -1,0 +1,39 @@
+.signup, .login, .logout {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../../../../public/signup_bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.login{
+    background: url("../../../../public/login_bg.jpg") no-repeat center center fixed;
+}
+
+.logout{
+    background: url("../../../../public/logout_bg.jpg") no-repeat center center fixed;
+}
+
+.wrapper h2, h5 {
+    text-align: center;
+    color: var(--primary-text-color);
+}
+h5{
+    margin-top: 10px;
+}
+h5 a{
+    border-bottom: 1px dashed var(--signup-accent-color);
+}
+
+.form_wrapper {
+    margin-top: 15px;
+    max-width: max(800vw, 500px);
+    width: 100%;
+}
+
+.form_wrapper label{
+    color: var(--primary-text-color);
+}

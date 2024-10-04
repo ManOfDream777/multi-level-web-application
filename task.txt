@@ -1,0 +1,36 @@
+1. Многоуровневое веб-приложение с аутентификацией
+Описание: Приложение, которое включает регистрацию, вход в систему, авторизацию с различными уровнями доступа (например, админ, пользователь).
+Технологии: Python (Django/Flask), React, PostgreSQL.
+Функционал:
+Регистрация и вход с использованием токенов (JWT).
+Разные роли пользователей (админ может управлять контентом, пользователи — создавать или редактировать только свои записи).
+REST API для взаимодействия фронтенда и бэкенда.
+Навыки: Работа с базами данных, аутентификация, архитектура MVC/MVT, API.
+
+8. Блог-платформа с возможностью комментирования
+Описание: Платформа для ведения блога с системой комментариев и лайков.
+Технологии: Python (Django), React, PostgreSQL.
+Функционал:
+Добавление/редактирование/удаление статей.
+Комментирование и лайки для статей.
+Система подписки на блог и уведомления.
+Навыки: Работа с аутентификацией, базой данных, внедрение комментариев и уведомлений.
+
+English
+1. Multi-level web application with authentication
+Description: An application that includes registration, login, authorization with different access levels (for example, admin, user).
+Technologies: Python (Django/Flask), React, PostgreSQL.
+Functional:
+Registration and login using tokens (JWT).
+Different roles of users (admin can manage content, users can create or edit only their own records).
+REST API for interaction between frontend and backend.
+Skills: Working with databases, authentication, MVC/MVT architecture, API.
+
+8. Blog platform with comment and like functionality
+Description: Blog platform with comment and like functionality.
+Technologies: Python (Django), React, PostgreSQL.
+Functional:
+Adding/editing/deleting posts.
+Commenting and liking for posts.
+Subscription to the blog and notifications.
+Skills: Working with authentication, databases, injecting comments and notifications.

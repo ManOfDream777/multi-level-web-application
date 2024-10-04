@@ -1,0 +1,151 @@
+.loading, .center_block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.link::after{
+    content: none;
+    display: none;
+}
+
+.admin_interface {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    color: var(--primary-text-color);
+    cursor: pointer;
+    z-index: 1;
+}
+
+.notification{
+    border-radius: 5px;
+    border: 1px solid var(--primary-text-color);
+    padding: 20px 5px;
+    position: relative;
+}
+
+.remove_notification{
+    position: absolute;
+    right: 5px;
+    top: 0;
+    cursor: pointer;
+    color: var(--primary-text-color);
+}
+
+.footer {
+    margin-top: 15px;
+}
+
+.footer span {
+    text-decoration: underline;
+}
+
+.pre_comments {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add_comment form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.add_comment form textarea{
+    resize: none;
+    border: 1px solid var(--secondary-text-color);
+    border-radius: 5px;
+}
+.other_comments{
+    margin-top: 40px;
+}
+.like_section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.like_section div {
+    user-select: none;
+}
+
+.like, .dislike {
+    cursor: pointer;
+    transition: all .3s;
+}
+.like svg, .dislike svg {
+    transition: all .3s;
+}
+
+.like:hover, .like svg[filled] {
+    color: #4cae4c;
+}
+
+.dislike:hover, .dislike svg[filled] {
+    color: #d9534f;
+}
+
+.notification_icon{
+    position: relative;
+}
+
+.notification_count {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #d9534f;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notification_icon svg{
+    color: var(--primary-text-color);
+    cursor: pointer;
+    transition: all .4s;
+    position: relative;
+    z-index: 1;
+}
+
+.notification_icon svg:hover {
+    color: #2b669a;
+}
+
+.overlay{
+    width: 350px;
+    padding: 30px;
+    height: 100%;
+    position: fixed;
+    right: -355px;
+    top: 0;
+    background-color: rgba(0, 0, 0, 1);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    transition: all .4s;
+    text-align: center;
+    overflow: auto;
+}
+.overlay_show{
+    right: 0 !important;
+}
+.overlay .close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: var(--primary-text-color);
+}
+.overlay p{
+    color: var(--primary-text-color);
+}
